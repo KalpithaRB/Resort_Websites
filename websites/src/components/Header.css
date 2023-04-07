@@ -7,6 +7,9 @@ background-color: black;
 
 }
 
+.h1{
+  color: white;
+}
 .header-navbar{
   display:flex;
   flex-direction: row;
@@ -47,11 +50,11 @@ background-color: black;
     display: flex;
   }
   
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {background-color: #f3eeee;}
   
   .dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: #425342;}
+  .dropdown:hover .dropbtn {background-color: #bdc0bd;}
 
   .buttons-in-header{
     display:flex;
