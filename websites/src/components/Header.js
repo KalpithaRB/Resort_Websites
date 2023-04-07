@@ -29,8 +29,9 @@ function Options(title) {
 
 export default function Header() {
   return (
-    <div className="section">
+    <div className="main-header">
       <h1>Logo</h1>
+      <div className="header-navbar">
       <Options name="Home" />
       <Navcontent names="About Us" drop1="Client Review" />
       <Navcontent
@@ -43,11 +44,13 @@ export default function Header() {
       <Options name="Gallery" />
       <Options name="Amenities" />
       <Options name="Contact Us" />
+      </div>
       <br />
       <div className="buttons-in-header">
         <Button color="red" name="Sign in" />
-        <Button color="blue" name="Book Now" />
+        <Button color="Black" name="Book Now" />
       </div>
+      
     </div>
   );
 }
