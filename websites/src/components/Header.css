@@ -10,6 +10,7 @@ background-color: black;
 .h1{
   color: white;
 }
+
 .header-navbar{
   display:flex;
   flex-direction: row;
@@ -50,11 +51,21 @@ background-color: black;
     display: flex;
   }
   
-  .dropdown-content a:hover {background-color: #f3eeee;}
+  .dropdown-content a:hover {
+    background-color: #f3eeee;
+  }
   
-  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
   
-  .dropdown:hover .dropbtn {background-color: #bdc0bd;}
+  .dropdown:hover .dropbtn {
+    background-color: #bdc0bd;
+    color: black;
+  }
+  /* .dropdown:hover.title{
+    
+  } */
 
   .buttons-in-header{
     display:flex;
@@ -66,4 +77,5 @@ background-color: black;
 
   }
 
+  
   
