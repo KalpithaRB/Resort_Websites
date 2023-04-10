@@ -30,7 +30,7 @@ function Options(title) {
 export default function Header() {
   return (
     <div className="main-header">
-      <h1>Logo</h1>
+      <h1 className="Logo">Logo</h1>
       <div className="header-navbar">
       <Options name="Home" />
       <Navcontent names="About Us" drop1="Client Review" />
