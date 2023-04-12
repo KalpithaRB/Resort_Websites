@@ -5,7 +5,8 @@ function Navcontent(title) {
   return (
     <div className="options">
       <div className="dropdown">
-        <div className="dropbtn">{title.names}</div>
+        <div className="dropbtn">
+          <a href="/">{title.names}</a></div>
       </div>
       <div className="dropdown-content">
           <a href="/">{title.drop1}</a>
