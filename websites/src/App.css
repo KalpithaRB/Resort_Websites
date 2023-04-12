@@ -5,3 +5,8 @@
   flex-direction: column;
   justify-content: flex-start;
 }
+
+.App-footer{
+  display:flex;
+  
+}
