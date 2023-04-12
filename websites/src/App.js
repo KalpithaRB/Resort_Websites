@@ -1,7 +1,7 @@
 
 import './App.css';
 import Header from './components/Header';
-import Footer from './components/Footer';
+//import Footer from './components/Footer';
 
 function App() {
   return (
@@ -9,9 +9,9 @@ function App() {
       <header className="App-header">
         <Header/>
       </header>
-      <footer className="App-footer">
-      <Footer/>
-      </footer>
+      {/* <footer className="App-footer"> */
+       /*<Footer/> */
+      /*</footer> */}
     </div>
   );
 }
