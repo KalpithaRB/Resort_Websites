@@ -6,13 +6,13 @@ function Navcontent(title) {
     <div className="options">
       <div className="dropdown">
         <div className="dropbtn">{title.names}</div>
-        <div className="dropdown-content">
+      </div>
+      <div className="dropdown-content">
           <a href="/">{title.drop1}</a>
           <a href="/">{title.drop2}</a>
           <a href="/">{title.drop3}</a>
           <a href="/">{title.drop4}</a>
         </div>
-      </div>
     </div>
   );
 }
@@ -21,7 +21,9 @@ function Options(title) {
   return (
     <div className="options">
       <div className="dropdown">
-        <div className="dropbtn">{title.name}</div>
+        <div className="dropbtn">
+          <a href="/">{title.name}</a>
+          </div>
       </div>
     </div>
   );
